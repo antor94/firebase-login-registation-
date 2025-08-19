@@ -14,10 +14,10 @@ const myRoute = createBrowserRouter(createRoutesFromElements(
   <Route >
     <Route path='/' element={<LayoutOne />} >
     <Route index element={<Home />} />
+    </Route>
     <Route path='/login' element={<Login />} />
     <Route path='/register' element={<Registation />} />
 
-    </Route>
   </Route>
 ))
 
